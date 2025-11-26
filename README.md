@@ -14,10 +14,10 @@ Pratice for Web design class in JBNU Computer Science department
 
 ### Examples of tests
 
-!(images/Test1.png)
+![](images/Test1.png)
 
-!(images/Test2.png)
+![](images/Test2.png)
 
-!(images/Test3.png)
+![](images/Test3.png)
 
-!(images/Test4.png)
+![](images/Test4.png)
