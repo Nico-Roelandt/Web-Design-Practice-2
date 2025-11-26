@@ -131,6 +131,13 @@ app.put('/api/items/:id/rename', (req, res) => {
   if (newName !== undefined) {
     item.name = newName;
   }
+  else
+  {
+    return res.status(400).json({
+      status: "error",
+      message: '"newName" is required'
+    }); // 400 Bad Request
+  }
 
   return res.status(200).json({
     status: "success",
